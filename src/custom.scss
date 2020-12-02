@@ -1,0 +1,14 @@
+// Import Bootstrap and its default variables
+//IMPORTANT sass MUST BE @4.14.1 otherwise it wont compile
+@import '~bootstrap/scss/bootstrap.scss';
+
+body{
+    background-color: #FCF0F0;
+    font-family: 'Bebas Neue'
+}
+    
+.inner-border {
+    border: 0.2em solid #1B1C20;
+    box-shadow: inset 0px 0px 0px 0.1em #FA813A;
+    box-sizing: border-box; /* Include padding and border in element's width and height */
+}
